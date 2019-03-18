@@ -1,0 +1,42 @@
+.planet-shadow {
+	width: 40vw;
+	height: 40.1vw;
+	position: absolute;
+	border-radius: 50%;
+	margin-top: -40vw;
+	box-shadow: inset -5px 0px 80px -10px rgb(0, 204, 255)
+}
+
+.planet-box {
+	position: relative;
+	width: 40vw;
+	height: 39vw;
+	margin-bottom: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.planet {
+	height: 100%;
+	/* margin-left: calc(-105% + 28.69%) */
+	/* -0.55% / minute */
+	/* long / -0.55% */
+}
+
+.station {
+	width: 5vw;
+	height: 5vw;
+	position: absolute;
+	left: 49%;
+	top: calc(50% + 8.3%)
+}
+
+@keyframes Spin {
+	0% {
+		margin-left: -60%
+	}
+
+	100% {
+		margin-left: -260%
+	}
+}

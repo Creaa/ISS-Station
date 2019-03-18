@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+@font-face {
+  font-family: 'digital_dreamregular';
+  src: url('/.assets/fonts/digitaldream-webfont.woff2') format('woff2'),
+    url('./assets/fonts/digitaldream-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("https://www.starregister.org/images/starsBg-wide.jpg") center/ cover no-repeat;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.date {
+  order: 0;
+  margin: 30px 0;
+  font-size: 3rem;
+  align-self: center;
+  margin-left: 100px;
+  font-family: "digital_dreamregular", sans-serif;
+  color: rgb(0, 247, 255);
+}
+
+.speed {
+  margin-left: 30px;
+  align-self: flex-start;
+}
+
+.station-info {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meter {
+  font-size: 2rem;
+  display: block;
+  font-family: "digital_dreamregular", sans-serif;
+  color: white;
+}
+
+.distance {
+  margin-left: 30px;
+  align-self: flex-end;
+}
